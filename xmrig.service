@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/root/xmrig-6.26.0/
-ExecStart=/root/xmrig-6.26.0/xmrig
+ExecStart=/root/xmrig-6.26.0/xmrig -B
 Restart=always
 RestartSec=10
 
