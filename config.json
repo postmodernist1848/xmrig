@@ -1,0 +1,21 @@
+{
+    "autosave": true,
+    "cpu": true,
+    "opencl": false,
+    "cuda": false,
+    "ipv6": true,
+    "pools": [
+        {
+            "url": "pool.hashvault.pro:443",
+            "user": "42BSeyB2YKAcpmRctwgMVxdeu2VmV73iARVWzkg37K4c4RNGTNV6qM7bunJcTLFpnuAw7pBWHqwcDhgftpHT99cGE9VVMbT",
+            "keepalive": true,
+            "tls": true
+        }
+    ],
+    "dns": {
+        "ipv6": true,
+        "ip_version": 0,
+        "ttl": 30
+    }
+}
+

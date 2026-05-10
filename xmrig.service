@@ -1,0 +1,14 @@
+[Unit]
+Description=XMRig Daemon
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/root/xmrig-6.26.0/
+ExecStart=/root/xmrig-6.26.0/xmrig
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
